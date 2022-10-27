@@ -84,7 +84,7 @@ class View {
         app.innerHTML = "";
     }
 
-    renderTitle(){
+    renderTitle(){ 
         let root = document.getElementById('root');
         let container = document.createElement('div');
         let logoText = document.createElement('p');
